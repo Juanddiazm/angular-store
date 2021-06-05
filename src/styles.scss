@@ -22,8 +22,8 @@
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  .container{
-    max-width: 1110%;
+  .container {
+    max-width: 1110px;
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -31,3 +31,7 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+img {
+  max-width: 100%;
+}
